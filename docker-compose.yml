@@ -1,0 +1,10 @@
+services:
+  employee_app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: employee_app
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./src:/app/src
