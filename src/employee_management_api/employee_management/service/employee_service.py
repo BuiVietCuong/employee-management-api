@@ -1,7 +1,7 @@
 from typing import List, Optional, Dict, Any
 from sqlalchemy.orm import Session
 
-from ..config.util import ORG_FIELD_CONFIG
+from ..helpers.utils import ORG_FIELD_CONFIG
 from ..repository import employee_repository
 
 # Example org config for allowed fields per org ID (lowercase keys)
