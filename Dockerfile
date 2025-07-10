@@ -21,4 +21,4 @@ COPY ./src ./src
 EXPOSE 8000
 
 # Run the FastAPI app
-CMD ["uvicorn", "employee_management_api.employee_management.app:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["uvicorn", "src.employee_management_api.app:app", "--host", "0.0.0.0", "--port", "8000"]
